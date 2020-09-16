@@ -1,0 +1,17 @@
+{
+    "listeners": {
+        "*:8090": {
+            "pass": "applications/flask_app"
+        }
+    },
+
+    "applications": {
+        "flask_app": {
+            "type": "python 3.6",
+            "user": "athithan-7130",
+            "path": "/home/local/ZOHOCORP/athithan-7130/unit2ndtour",
+            "home": "/home/local/ZOHOCORP/athithan-7130/unit2ndtour/myvenv/",
+            "module": "app"
+        }
+    }
+}
